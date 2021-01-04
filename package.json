@@ -5,7 +5,7 @@
   "main": "out/index.js",
   "typings": "out/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc -b tsconfig.json",
     "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -31,6 +31,6 @@
   },
   "homepage": "https://github.com/f111fei/react-native-banner-carousel",
   "devDependencies": {
-    "@types/react-native": "^0.46.9"
+    "@types/react-native": "^0.63.43"
   }
 }
